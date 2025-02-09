@@ -25,7 +25,7 @@ Every file and directory has three types of permissions:
 
 1. Create the user and add to group:
 
-![Screenshot](E:\Trainwith shubham\Capture.PNG)
+![Screenshot](E:/Trainwith shubham/Capture.PNG)
 
 ** Explanation: **
 

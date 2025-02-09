@@ -25,37 +25,42 @@ Every file and directory has three types of permissions:
 
 1. Create the user and add to group:
 
-![Screenshot](E:\\Trainwith shubham\\Capture.PNG)
+![Screenshot](./Capture.PNG)
 
 ** Explanation: **
 
-useradd: Creates a new user account.
--m: Creates a home directory for the user.
--g devops_team: Assigns the user to the "devops_team" group.
+- useradd: Creates a new user account.
+- -m: Creates a home directory for the user.
+- -g devops_team: Assigns the user to the "devops_team" group.
 
 2. Set a password for the user:
-sudo passwd devops_user
+
+- sudo passwd devops_user
+
 *Explanation:*
-passwd: Prompts you to enter a new password for the specified user.
+
+- passwd: Prompts you to enter a new password for the specified user.
 
 3. Grant sudo access:
-sudo usermod -aG sudo devops_user
+
+- sudo usermod -aG sudo devops_user
 
 ** Explanation: **
 
-usermod: Modifies an existing user account.
--aG sudo: Adds the user to the "sudo" group, allowing them to execute commands with root privileges.
+- usermod: Modifies an existing user account.
+- -aG sudo: Adds the user to the "sudo" group, allowing them to execute commands with root privileges.
 
 4. Restrict SSH login for specific users (in /etc/ssh/sshd_config):
-Edit the file:
-sudo nano /etc/ssh/sshd_config
-Add the following line to restrict access:
-DenyUsers user1 user2 user3
+
+- Edit the file:
+  sudo nano /etc/ssh/sshd_config
+- Add the following line to restrict access:
+- DenyUsers user1 user2 user3
 
 ** Explanation: **
 
-DenyUsers: Specifies a list of usernames that are explicitly denied SSH access.
-Restart the SSH service to apply changes:
-sudo systemctl restart sshd
+- DenyUsers: Specifies a list of usernames that are explicitly denied SSH access.
+- Restart the SSH service to apply changes:
+- sudo systemctl restart sshd
 
 ---

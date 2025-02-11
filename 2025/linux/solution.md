@@ -25,7 +25,7 @@ Every file and directory has three types of permissions:
 
 1. Create the user and add to group:
 
-![Image](.2025/Images/LinuxImg/Capture.PNG)
+![Image](Images/LinuxImg/Capture.PNG)
 
 ** Explanation: **
 

@@ -23,9 +23,9 @@ Every file and directory has three types of permissions:
   - Set a password and grant *sudo* access.
   - Restrict SSH login for certain users in /etc/ssh/sshd_config.
 
-1. Create the user and add to group:
+# 1. Create the user and add to group:
 
-![Image](Images/LinuxImg/Capture.PNG)
+<image src = "Images/LinuxImg/Capture.PNG">
 
 ** Explanation: **
 
@@ -33,7 +33,7 @@ Every file and directory has three types of permissions:
 - -m: Creates a home directory for the user.
 - -g devops_team: Assigns the user to the "devops_team" group.
 
-2. Set a password for the user:
+## 2. Set a password for the user:
 
 - sudo passwd devops_user
 
@@ -41,7 +41,7 @@ Every file and directory has three types of permissions:
 
 - passwd: Prompts you to enter a new password for the specified user.
 
-3. Grant sudo access:
+### 3. Grant sudo access:
 
 - sudo usermod -aG sudo devops_user
 

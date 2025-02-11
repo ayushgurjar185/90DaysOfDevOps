@@ -25,7 +25,7 @@ Every file and directory has three types of permissions:
 
 # 1. Create the user and add to group:
 
-<image src = "2025/Images/LinuxImg/Capture.PNG">
+<image src = "https://github.com/ayushgurjar185/90DaysOfDevOps/blob/06b2c63879253f44d2ffc35206c9df81606da6aa/2025/Images/LinuxImg/Capture.PNG">
 
 ** Explanation: **
 

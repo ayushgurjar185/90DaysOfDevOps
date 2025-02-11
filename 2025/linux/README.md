@@ -62,7 +62,7 @@ Add the following line to restrict access:
   - Create `/devops_workspace` and a file `project_notes.txt`.
   
   Solution:
-<image src =" ">
+<image src = "https://github.com/ayushgurjar185/90DaysOfDevOps/blob/9d7fd56722a538c3b657777358bc8bfa16520615/2025/Images/LinuxImg/img4.PNG">
 
   - Set permissions:
     - **Owner can edit**, **group can read**, **others have no access**.
@@ -70,7 +70,7 @@ Add the following line to restrict access:
 
 Solution :
 
-<image src = " ">
+<image src = "https://github.com/ayushgurjar185/90DaysOfDevOps/blob/9d7fd56722a538c3b657777358bc8bfa16520615/2025/Images/LinuxImg/img5.PNG ">
 ---
 
 ### **3️⃣ Log File Analysis with AWK, Grep & Sed**
@@ -81,19 +81,19 @@ Logs are crucial in DevOps! You’ll analyze logs using the **Linux_2k.log** fil
     - **Extract insights using commands:**
     - Use `grep` to find all occurrences of the word **"error"**.
 Solution:
-<image src = "">
+<image src = "https://github.com/ayushgurjar185/90DaysOfDevOps/blob/9d7fd56722a538c3b657777358bc8bfa16520615/2025/Images/LinuxImg/grep.PNG">
 
    - Use `awk` to extract **timestamps and log levels**.
 Solution :
-<image src = "">
+<image src = "https://github.com/ayushgurjar185/90DaysOfDevOps/blob/9d7fd56722a538c3b657777358bc8bfa16520615/2025/Images/LinuxImg/awk.PNG">
 
    - Use `sed` to replace all IP addresses with **[REDACTED]** for security.
 Solution :
-<image src = "">
+<image src = "https://github.com/ayushgurjar185/90DaysOfDevOps/blob/9d7fd56722a538c3b657777358bc8bfa16520615/2025/Images/LinuxImg/sed.PNG">
 
    - **Bonus:** Find the most frequent log entry using `awk` or `sort | uniq -c | sort -nr | head -10`.
 Solution :
-<image src = "">
+<image src = "https://github.com/ayushgurjar185/90DaysOfDevOps/blob/9d7fd56722a538c3b657777358bc8bfa16520615/2025/Images/LinuxImg/uniq.PNG">
 
 
 ---

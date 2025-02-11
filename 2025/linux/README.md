@@ -13,10 +13,16 @@ Imagine you're managing a **Linux-based production server** and need to ensure t
 
 ### **1️⃣ User & Group Management**
 - Learn about Linux **users, groups, and permissions** (`/etc/passwd`, `/etc/group`).
+
+Answer :
+
 - **Task:**  
   - Create a user `devops_user` and add them to a group `devops_team`.
   - Set a password and grant **sudo** access.
   - Restrict SSH login for certain users in `/etc/ssh/sshd_config`.
+
+Solution :
+
 
 ---
 

@@ -35,7 +35,7 @@ Answer :
 
 Solution :
 
- ![img1]("https://github.com/ayushgurjar185/90DaysOfDevOps/blob/69bcd1a6ee71c89b97bed4202ae9e97b4b445bc1/2025/Images/LinuxImg/img1.PNG")
+ <image src = "https://github.com/ayushgurjar185/90DaysOfDevOps/blob/69bcd1a6ee71c89b97bed4202ae9e97b4b445bc1/2025/Images/LinuxImg/img1.PNG">
 
 - Restrict SSH login for specific users (in /etc/ssh/sshd_config):
 

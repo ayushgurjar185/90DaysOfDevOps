@@ -14,7 +14,19 @@ Imagine you're managing a **Linux-based production server** and need to ensure t
 ### **1️⃣ User & Group Management**
 - Learn about Linux **users, groups, and permissions** (`/etc/passwd`, `/etc/group`).
 
-Answer :
+Answer : 
+
+- Users: A user in Linux is an account that can log in and interact with the system.Each user has a unique username and a User ID (UID).Users can own files and run programs.
+
+- Groups: A group is a collection of users.Groups make it easier to manage permissions for multiple users at once.Each group has a unique Group Name and a Group ID (GID).A user can belong to one primary group and multiple secondary groups.
+
+- Permissions: Permissions control what users and groups can do with files and directories. Every file and directory has three types of permissions:
+
+   - 1.Read (r): View the contents of a file or list files in a directory.
+
+   - 2.Write (w): Modify a file or add/remove files in a directory.
+
+   - 3.Execute (x): Run a file as a program or enter a directory.
 
 - **Task:**  
   - Create a user `devops_user` and add them to a group `devops_team`.
@@ -22,6 +34,20 @@ Answer :
   - Restrict SSH login for certain users in `/etc/ssh/sshd_config`.
 
 Solution :
+<image src = "https://github.com/ayushgurjar185/90DaysOfDevOps/blob/69bcd1a6ee71c89b97bed4202ae9e97b4b445bc1/2025/Images/LinuxImg/img1.PNG"\n"https://github.com/ayushgurjar185/90DaysOfDevOps/blob/69bcd1a6ee71c89b97bed4202ae9e97b4b445bc1/2025/Images/LinuxImg/img2.PNG"\n"https://github.com/ayushgurjar185/90DaysOfDevOps/blob/69bcd1a6ee71c89b97bed4202ae9e97b4b445bc1/2025/Images/LinuxImg/img3.PNG">
+
+- Restrict SSH login for specific users (in /etc/ssh/sshd_config):
+
+Edit the file: sudo vim /etc/ssh/sshd_config
+
+Add the following line to restrict access:
+      DenyUsers user1 user2 user3
+
+** Explanation: **
+
+- DenyUsers: Specifies a list of usernames that are explicitly denied SSH access.
+      Restart the SSH service to apply changes:
+      sudo systemctl restart sshd
 
 
 ---

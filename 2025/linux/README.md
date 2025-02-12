@@ -123,6 +123,10 @@ Solution:
   - Use `ps`, `top`, and `htop` to monitor it.
   - Kill the process and verify it's gone.
 
+Solution:
+
+<image src = "90DaysOfDevOps\2025\Images\LinuxImg">
+
 ---
 
 ### **6️⃣ Automate Backups with Shell Scripting**

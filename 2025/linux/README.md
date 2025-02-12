@@ -103,17 +103,17 @@ Solution :
   - Create a directory `/mnt/devops_data`.
 
 Solution:
-<image src = " ">
+<image src = " https://github.com/ayushgurjar185/90DaysOfDevOps/blob/2faf95f8a865291d4b152d7a1dd4317540069e07/2025/Images/LinuxImg/vol1.PNG">
 
   - Mount a new volume (or loop device for local practice).
 
 Solution:
-<image src = " ">
+<image src = " https://github.com/ayushgurjar185/90DaysOfDevOps/blob/2faf95f8a865291d4b152d7a1dd4317540069e07/2025/Images/LinuxImg/vol2.PNG">
 
   - Verify using `df -h` and `mount | grep devops_data`.
 
 Solution:
-<image src = " ">
+<image src = " https://github.com/ayushgurjar185/90DaysOfDevOps/blob/2faf95f8a865291d4b152d7a1dd4317540069e07/2025/Images/LinuxImg/volu3.PNG">
 
 ---
 

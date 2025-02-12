@@ -125,7 +125,7 @@ Solution:
 
 Solution:
 
-<image src = "90DaysOfDevOps\2025\Images\LinuxImg">
+<image src = "https://github.com/ayushgurjar185/90DaysOfDevOps/blob/452d52ff558e40b0d36f5d5c3961f6d6b5052abd/2025/Images/LinuxImg/ping.PNG">
 
 ---
 

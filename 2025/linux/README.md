@@ -101,8 +101,19 @@ Solution :
 ### **4️⃣ Volume Management & Disk Usage**
 - **Task:**  
   - Create a directory `/mnt/devops_data`.
+
+Solution:
+<image src = " ">
+
   - Mount a new volume (or loop device for local practice).
+
+Solution:
+<image src = " ">
+
   - Verify using `df -h` and `mount | grep devops_data`.
+
+Solution:
+<image src = " ">
 
 ---
 

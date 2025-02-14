@@ -1,0 +1,24 @@
+
+
+Basis of Git 
+
+# What is git
+Git is used for version control
+open source code is publicly available
+open source code isoften worked on by community collaborators
+
+## Repository Management 
+
+The Repository management is a type of centrally located storage where we can keep all our resources.
+
+- git init:- create a new local repository
+- git add :- stage all changed files or stage a file
+- git commit :- commit previously stages changes
+- git clone :- It helps to copies a remote repository to your local machine
+
+Forking a Repository: when we create a personal copy of another user's in Githubrepository in your own github account.
+
+Step to fork a Repository on GitHub:
+1.Go to the repository you want to fork on GitHub
+2.click the Fork button
+3.The repository will be copied to your Github account

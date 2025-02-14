@@ -1,8 +1,8 @@
 
 
-Basis of Git 
+# Basis of GIT 
 
-# What is git
+## What is git
 Git is used for version control
 open source code is publicly available
 open source code isoften worked on by community collaborators
@@ -22,16 +22,16 @@ The Repository management is a type of centrally located storage where we can ke
 Forking a Repository: when we create a personal copy of another user's in Githubrepository in your own github account.
 
 Step to fork a Repository on GitHub:
-1.Go to the repository you want to fork on GitHub
-2.click the Fork button
-3.The repository will be copied to your Github account
+- 1.Go to the repository you want to fork on GitHub
+- 2.click the Fork button
+- 3.The repository will be copied to your Github account
 
 
-Git Branches:
+## Git Branches:
 Branches can be used to have a second version of the same code to work with. This is useful 
 
 - git branch: create a new branch
 - git branch -d :- Delete a branch
 - git fetch : fetch all branches form remote repository
 - git log :- show full change history
-- 
+ 

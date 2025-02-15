@@ -135,6 +135,11 @@ Solution:
   - Save it in `/backups` and schedule it using `cron`.
   - Make the script display a success message in **green text** using `echo -e`.
 
+Solution:
+
+<image src ="https://github.com/ayushgurjar185/90DaysOfDevOps/blob/2ee9c700631a5d2042df7aba404f552c3f95c65f/2025/Images/LinuxImg/script.PNG ">
+
+<image src ="https://github.com/ayushgurjar185/90DaysOfDevOps/blob/2ee9c700631a5d2042df7aba404f552c3f95c65f/2025/Images/LinuxImg/output.PNG">
 ---
 
 ## 🎯 Bonus Tasks (Optional 🚀)
